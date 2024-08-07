@@ -1,0 +1,62 @@
+/* Styles for BrowsePage component */
+.BrowsePage {
+    text-align: center; /* Center-align text */
+    background-color: #d9d9d9; /* Set background color */
+}
+
+/* Styles for container */
+.Bcontainer {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-evenly; /* Distribute items evenly along the main axis */
+    margin: 10rem auto; /* Set margin */
+    width: 100%; /* Set width to 100% */
+    text-align: center; /* Center-align text */
+}
+
+/* Styles for grid */
+.Bgrid {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Define three columns with equal width */
+    grid-auto-rows: 12rem; /* Set height for each row */
+    gap: 1rem 25vw; /* Set gap between grid items */
+}
+
+/* Styles for button */
+.Bbutton {
+    background-color: #007bff; /* Set background color */
+    width: 15rem; /* Set width */
+    height: 8rem; /* Set height */
+    color: white; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Set border radius */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Set cursor to pointer */
+    transition: background-color 0.3s ease; /* Add transition effect */
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Align items vertically */
+    justify-content: space-around; /* Distribute space around items */
+}
+
+/* Styles for image container */
+.Bimage-container {
+    width: 40%; /* Set width */
+    margin-right: 1rem; /* Set right margin */
+}
+
+/* Styles for image */
+.Bimage-container img {
+    width: 100%; /* Set width to 100% */
+    height: auto; /* Set height to auto */
+}
+
+/* Styles for content container */
+.NBontentm {
+    width: 40%; /* Set width */
+    margin-right: 0; /* Reset right margin */
+    align-items: right; /* Align items to the right */
+}
+
+/* Styles for button hover state */
+.Bbutton:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}

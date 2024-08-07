@@ -1,0 +1,43 @@
+/* Profile Page Background container */
+.Pcontainer {
+    display: flex;
+    justify-content: center; 
+    margin: 10rem auto;
+    width: 100%;
+    height: 50rem;
+    position: relative;
+}
+
+
+.Pbox1, .Pbox2, .Pbox3, .Pbox4 {
+    position: absolute;
+    left: 10rem;
+    right: 0;
+    margin: auto;
+    background-color: #fcfcfc;
+    width: 66rem;
+    height: 15rem; 
+    overflow-y: auto; 
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+ 
+  .Pbox1 {
+    top: -9rem;
+  }
+  
+  .Pbox2 {
+    top: 8rem;
+  }
+  
+  .Pbox3 {
+    top: 25rem;
+  }
+  
+  .Pbox4 {
+    top: 42rem;
+  }

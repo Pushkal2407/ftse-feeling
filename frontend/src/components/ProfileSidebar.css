@@ -1,0 +1,55 @@
+.profileDetailsSideBar {
+  position: absolute;
+  top: 7rem;
+  left: 0;
+  width: 15%;
+  height: 67rem;
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  padding: 20px;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.button-select {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.button-select li {
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 10px;
+  border: none;
+}
+
+.button-select li button {
+  width: 50%;
+  padding: 10px;
+  border: none; 
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-select li button:hover {
+  background-color: #0056b3;
+}
+
+
+.static-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.static-info span {
+  margin-right: 5px; 
+}
+
+.static-info span:last-child {
+  font-weight: bold;
+}

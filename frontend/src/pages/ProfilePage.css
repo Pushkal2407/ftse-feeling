@@ -1,0 +1,12 @@
+.ProfilePage{
+    text-align: center;
+    background-color: #d9d9d9;
+    overflow: hidden;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: repeat(2, 12rem); /* Two rows, each with a height of 12rem */
+    gap: 1rem; /* Spacing between grid items */
+  }

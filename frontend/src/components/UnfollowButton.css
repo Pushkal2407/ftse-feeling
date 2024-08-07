@@ -1,0 +1,57 @@
+.UFbutton {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    background-color: red;
+  }
+  
+  .UFbutton, .UFbutton__icon, .UFbutton__text {
+    transition: all 0.3s;
+  }
+  
+  .UFbutton .UFbutton__text {
+    transform: translateX(30px);
+    color: black;
+    font-weight: 600;
+  }
+  
+  .UFbutton .UFbutton__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 39px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .UFbutton .svg {
+    width: 30px;
+    stroke: #fff;
+  }
+  
+  .UFbutton:hover {
+    background: greenyellow4d;
+  }
+  
+  .UFbutton:hover .UFbutton__text {
+    color: transparent;
+  }
+  
+  .UFbutton:hover .UFbutton__icon {
+    width: 148px;
+    transform: translateX(0);
+  }
+  
+  .UFbutton:active .UFbutton__icon {
+    background-color:   red;
+  }
+  
+  .UFbutton:active {
+    border: 1px solid red;
+  }

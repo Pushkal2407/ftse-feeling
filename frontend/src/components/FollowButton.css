@@ -1,0 +1,57 @@
+.Fbutton {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #34974d;
+    background-color: #3aa856;
+  }
+  
+  .Fbutton, .Fbutton__icon, .Fbutton__text {
+    transition: all 0.3s;
+  }
+  
+  .Fbutton .Fbutton__text {
+    transform: translateX(30px);
+    color: black;
+    font-weight: 600;
+  }
+  
+  .Fbutton .Fbutton__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 39px;
+    background-color: #34974d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Fbutton .svg {
+    width: 30px;
+    stroke: #fff;
+  }
+  
+  .Fbutton:hover {
+    background: #34974d;
+  }
+  
+  .Fbutton:hover .Fbutton__text {
+    color: transparent;
+  }
+  
+  .Fbutton:hover .Fbutton__icon {
+    width: 148px;
+    transform: translateX(0);
+  }
+  
+  .Fbutton:active .Fbutton__icon {
+    background-color: #2e8644;
+  }
+  
+  .Fbutton:active {
+    border: 1px solid #2e8644;
+  }

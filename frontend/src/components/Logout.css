@@ -1,0 +1,29 @@
+.button-choose {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.button-choose li {
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+}
+
+.button-choose li button {
+    width: auto; 
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-choose li button:hover {
+    background-color: #0056b3;
+}
