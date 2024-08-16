@@ -20,7 +20,7 @@ Before running the application, ensure you have the following installed:
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/yourusername/ftse-feeling.git
+git clone https://github.com/Pushkal2407/ftse-feeling.git
 cd ftse-feeling
 Copy
 2. Install Python dependencies:
@@ -71,6 +71,4 @@ Detailed information about the testing process can be found in the project repor
 
 [List the team members here]
 
-## License
 
-[Include your license information here]
